@@ -18,7 +18,7 @@ Below is a list of technology to use:
 - When a user starts the program, the user should get a welcome message
 - The program should then go to the [Bell Smartphone page](https://www.bell.ca/Mobility/Smartphones_and_mobile_internet_devices) and retrieve the names of the top 12 devices
 - The program should then give the user a list of these 12 devices that the user can choose 
-- When a device is selected, Selenium should run in the background to visit the same [webpage](https://www.bell.ca/Mobility/Smartphones_and_mobile_internet_devices) , click on the requested device, then under **Pricing and device options** click on **ay a subsidized phone price** and get the starting prices for all terms listed
+- When a device is selected, Selenium should run in the background to visit the same [webpage](https://www.bell.ca/Mobility/Smartphones_and_mobile_internet_devices) , click on the requested device, then under **Pricing and device options** click on **pay a subsidized phone price** and get the starting prices for all terms listed
 - Once the price is obtained, it should print the devices's name, the prices, and their respective terms to the command-line
 
 ## Things to keep in mind
