@@ -5,7 +5,7 @@ This program is intended to help the user in getting the list of top 12 mobile d
 ## Technologies used
 Below is a list of technologies that were used:
 
--Programming Language: Python 3.8.3
+- Programming Language: Python 3.8.3
 -	Selenium WebDriver: 3.141.0
 -	Chrome Driver 81.0.4044.138
 -	IDE used : Pycharm
