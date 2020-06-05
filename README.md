@@ -1,40 +1,35 @@
-# Starting Price Lookup
+#Starting Price Lookup Tool
+##Introduction: Top 12 Mobile Devices (CLI price plan lookup)
+This program is intended to help the user in getting the list of top 12 mobile devices from [Bell Smartphone page](https://www.bell.ca/Mobility/Smartphones_and_mobile_internet_devices) and providing the user with an ability to fetch the price plans (Device Return/Smart Pay) for the selected device in a CLI (Command-line interface).
+##Technologies used
+Below is a list of technologies that were used:
+•	Programming Language: Python 3.8.3
+•	Selenium WebDriver: 3.141.0
+•	Chrome Driver 81.0.4044.138
+•	IDE used : Pycharm
+•	Supported OS: Windows/MacOS
+##Getting Started / Illustrations
+•	Setting the Path for the Chrome Driver 
+![](screenshots/1.png)
 
-At Bell, our sales department receives thousands of calls per day from customers inquiring about the starting prices of our smartphones. One of the sales directors is very hip and loves vintage things, especially vintage graphic cards! Everyone in the department must use new computers with weak graphic cards that cannot load most of today's graphic intensive websites.
+•	 Setting the name of the user. 
+![](screenshots/2.png)
+•	
 
-To help our sales people get information quickly to serve our customers more efficiently, we need to create a program that spits out starting prices for a given phone in a CLI (Command-line interface).
+•	When a user starts the program, the user will get a welcome message
+![](screenshots/3.png)
+•	The program will then go to the [Bell Smartphone page](https://www.bell.ca/Mobility/Smartphones_and_mobile_internet_devices) and retrieve the names of the top 12 devices
+![](screenshots/4.png)
+•	The program will then give the user a list of these 12 devices that the user can choose from.
 
-## Technology
+•	 User will be able to select the associated device by entering/inputing any number from 1 to 12. 
+![](screenshots/5.png)
+•	When user selects the device (1-12) from the list, program will visit the same [webpage](https://www.bell.ca/Mobility/Smartphones_and_mobile_internet_devices) , click on the requested device and then it will get the price plans (Smart Pay/Device Return) for all terms listed with required conditions. Once the price is obtained, program will print the device's name, the prices, and their respective terms to the command-line.
+![](screenshots/7.png) 
 
-Below is a list of technology to use:
-
-- You can use any programming language, we recommend: Ruby, Python, or Java
-- You can use any environment, we recommend a linux environment
-- Selenium WebDriver
-- A driver like chromedriver (chrome) or geckodriver (firefox)
-
-## Expectations
-
-- When a user starts the program, the user should get a welcome message
-- The program should then go to the [Bell Smartphone page](https://www.bell.ca/Mobility/Smartphones_and_mobile_internet_devices) and retrieve the names of the top 12 devices
-- The program should then give the user a list of these 12 devices that the user can choose 
-- When a device is selected, Selenium should run in the background to visit the same [webpage](https://www.bell.ca/Mobility/Smartphones_and_mobile_internet_devices) , click on the requested device, then under **Pricing and device options** click on **pay a subsidized phone price** and get the starting prices for all terms listed
-- Once the price is obtained, it should print the devices's name, the prices, and their respective terms to the command-line
-
-## Things to keep in mind
-
-- You should build the CLI so that it allows the sales staff to find the price efficiently
-- How you make the CLI user-friendly is entirely up to you
-- Make sure you have a detailed README with instructions on how to run your program
-
-## How to manage your work
-
-- Create a fork of this repo
-- Make sure the repo is set to **private** and add me to the repo `jbhandari`
-- Make sure to commit your code in logical portions
-  - ex: `Added ability to fetch price`
-
-## Additional Information
-
-- Should you need any further clarifications please do not hesitate to contact me via email at `jatin.bhandari@bell.ca`
-- Once the deadline has been reached (set by the hiring manager), the repo will be cloned and then analyzed privately
+•	Once the price of selected device is printed in the CLI then program will again print the list of top 12 devices in CLI. Now, user can again, input the device number (1-12) it should print the device's name, the prices and their respective terms to the command-line. 
+![](screenshots/7.png)
+•	If user wants to exit the program, then user can type anything except numbers from 1-12. 
+ ![](screenshots/8.png)
+##Additional Information
+Should you need any clarifications please contact me at  `harmandeep.singh3@bell.ca`.
