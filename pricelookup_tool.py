@@ -108,7 +108,7 @@ def shutdown_application(driver):
 if __name__ == "__main__":
     try:
         driver = init_driver(browser="chrome")
-        welcome_user(name="Harman")
+        welcome_user(name="Jatin")
         get_page(driver, BELL_HOMEPAGE)
         wait_implicitly(driver, time=100)
         show_device_list(driver)
